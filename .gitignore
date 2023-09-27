@@ -1,0 +1,13 @@
+INE
+.vscode
+
+# Ignore everything in the input directory
+input/*
+
+# But do not ignore sample.csv
+!input/sample.csv
+
+output
+
+.env.dev
+.env.prod
