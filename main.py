@@ -15,9 +15,6 @@ with open('log.txt', 'a') as log_file:
     # Loop through all the CSV files in the "input" directory
     for filename in os.listdir('input'):
         if filename.endswith('.csv'):
-            if filename == "sample.csv":
-                continue
-
             # Print date, time, and file being processed
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Processing file: {filename}...", file=log_file)
 
