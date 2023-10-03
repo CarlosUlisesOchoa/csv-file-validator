@@ -18,6 +18,7 @@ This Python script processes CSV files in a specified input directory and writes
 - [Usage](#usage)
 - [Example](#example)
 - [Contact](#contact)
+- [Contributing](#contributing)
 
 ## Prerequisites
 
@@ -57,3 +58,7 @@ New CSV files e. g. the new `sample1.csv` will contain only valid rows and will 
 - Website [carlos8a.com](https://carlos8a.com)
 - GitHub [@CarlosUlisesOchoa](https://github.com/carlosulisesochoa)
 - X [@Carlos8aDev](https://twitter.com/carlos8adev)
+
+## Contributing
+
+For contributing to this project, please feel free to [open an issue](https://github.com/CarlosUlisesOchoa/csv-file-validator/issues) or submit a pull request.
