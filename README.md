@@ -17,8 +17,8 @@ This Python script processes CSV files in a specified input directory and writes
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example](#example)
-- [Contact](#contact)
 - [Contributing](#contributing)
+- [Contact](#contact)
 
 ## Prerequisites
 
@@ -53,12 +53,12 @@ python main.py
 
 New CSV files e. g. the new `sample1.csv` will contain only valid rows and will be located in the `output` directory. Also, a log file named `log.txt` will be updated with processing details.
 
+## Contributing
+
+For contributing to this project, please feel free to [open an issue](https://github.com/CarlosUlisesOchoa/csv-file-validator/issues) or submit a pull request.
+
 ## Contact
 
 - Website [carlos8a.com](https://carlos8a.com)
 - GitHub [@CarlosUlisesOchoa](https://github.com/carlosulisesochoa)
 - X [@Carlos8aDev](https://twitter.com/carlos8adev)
-
-## Contributing
-
-For contributing to this project, please feel free to [open an issue](https://github.com/CarlosUlisesOchoa/csv-file-validator/issues) or submit a pull request.
