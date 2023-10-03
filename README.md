@@ -16,7 +16,6 @@ This Python script processes CSV files in a specified input directory and writes
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Options](#options)
 - [Example](#example)
 - [Contact](#contact)
 
@@ -37,16 +36,13 @@ Open a terminal and navigate to the directory containing the script. Then, run t
 python main.py
 ```
 
-## Options
-
-- This script doesn't have command-line options; it runs with default settings.
-
 ## Example
 
 Let's say you have a directory `input` with the following CSV files:
 
 - `sample1.csv`
 - `sample2.csv`
+- ... more csv files
 
 After running the command:
 
@@ -54,7 +50,7 @@ After running the command:
 python main.py
 ```
 
-New CSV files (`sample1.csv`, `sample2.csv`) with only valid rows will be created in the `output` directory. Also, a log file named `log.txt` will be updated with processing details.
+New CSV files e. g. the new `sample1.csv` will contain only valid rows and will be located in the `output` directory. Also, a log file named `log.txt` will be updated with processing details.
 
 ## Contact
 
